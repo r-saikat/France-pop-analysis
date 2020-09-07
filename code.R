@@ -31,3 +31,22 @@ z1 <- data.frame(m1,f1,Age_groups)
 z1
 
 pyramid(z1,Llab="Males in %", Rlab="Females in %", Clab="Age groups")
+
+
+dat1985
+dat2015
+
+colnames(dat1985)<-c("Age_groups", "Males(1985)","Females(1985)")
+colnames(dat2015)<-c("Males(2015)","Females(2015)","Age_groups")
+merge(dat1985,dat2015, by = "Age_groups", sort = FALSE)
+final <- merge(dat1985,dat2015, by = "Age_groups", sort = FALSE)
+x <- colnames(final)
+x[1] <- "Age groups"
+colnames(final) <- x
+final                  #publish the final age-sex distribution table.
+
+Total_1985 <- final$`Males(1985)` + final$`Females(1985)`
+Total_2015 <- final$`Males(2015)` + final$`Females(2015)`
+final <- cbind.data.frame(final,Total_1985,Total_2015)
+colnames(final) <- c(x, "Total(1985)", "Total(2015)")
+final

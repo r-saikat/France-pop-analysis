@@ -1,0 +1,52 @@
+---
+title: "An Analysis of Demography of France"
+author: |
+  | Saikat Roy
+  | Sem 1
+  | Roll: IIPS/MBD-2020-22/28
+  | Dept: MBD
+date: "07/09/2020"
+output: pdf_document
+---
+
+## Age-sex distribution
+
+The age-sex distribution of France is given below. It is to be noted that all population counts are given in thousands and have been rounded off to the nearest integer.
+
+```{r, echo=FALSE, comment=NA}
+dat1985 <- read.csv("1985.csv")
+dat2015 <- read.csv("2015.csv")
+colnames(dat1985)<-c("Age_groups", "Males(1985)","Females(1985)")
+colnames(dat2015)<-c("Males(2015)","Females(2015)","Age_groups")
+final <- merge(dat1985,dat2015, by = "Age_groups", sort = FALSE)
+x <- colnames(final)
+x[1] <- "Age groups"
+colnames(final) <- x
+final
+```
+
+
+
+## Median Age
+
+Year| Median Age (in years)
+---|---
+1985|33.6
+2015|41.2
+
+Thus, 50% of the French population in 1985 were below the age of 33.6 and the rest were of ages more than 33.6, whereas in 2015, 50% of the population were below the age of 41.2 and the others were of age more than 41.2. Thus, the median age of the French population has increased.
+
+## Dependency Ratio
+
+Total dependency ratio is the ratio of population aged 0-14 and 65+ per 100 population of the age group 15-64.					
+
+
+Year| Dependency ratio
+---|---
+1985|51.8
+2015|59.3
+
+Thus, the total dependency ratio has increased in France in 2015 as compared to 1985.
+
+## Index of ageing
+
