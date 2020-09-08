@@ -72,7 +72,7 @@ Thus, the proportion of economically inactive persons to number of young persons
 The potential support ratio (PSR) is the number of people aged 15–64 per one older person aged 65 or older. This ratio describes the burden placed on the working population (unemployment and children are not considered in this measure) by the non-working elderly population.
 
 \begin{equation*}
-Potential~ Support~ Ratio~ =~ \dfrac{Number~ of~ people~ aged~ 0-14}{Number~ of~ people~ aged~ 65+}
+Potential~ Support~ Ratio~ =~ \dfrac{Number~ of~ people~ aged~ 15-64}{Number~ of~ people~ aged~ 65+}
 \end{equation*}
 
 Year| Potential support ratio
