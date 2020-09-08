@@ -38,7 +38,11 @@ Thus, 50% of the French population in 1985 were below the age of 33.6 and the re
 
 ## Dependency Ratio
 
-Total dependency ratio is the ratio of population aged 0-14 and 65+ per 100 population of the age group 15-64.					
+Total dependency ratio is the ratio of population aged 0-14 and 65+ per 100 population of the age group 15-64.
+
+\begin{equation*}
+Total~ Dependency~ Ratio~ =~ \dfrac{Population~ in~ the~ age-group~ 0-14~ and~ 65+}{Population~ in~ the~ age-group~ 15-64}~ \times~ 100
+\end{equation*}
 
 
 Year| Dependency ratio
@@ -48,5 +52,41 @@ Year| Dependency ratio
 
 Thus, the total dependency ratio has increased in France in 2015 as compared to 1985.
 
-## Index of ageing
+## Index of aging
 
+The ratio of the number of elderly persons of an age when they are generally economically inactive (aged 65 and over) to the number of young persons (from 0 to 14) is known as the index of aging. A multiplier of 100 is often used for representing the data.
+
+\begin{equation*}
+Index~ of~ aging~ =~ \dfrac{Population~ of~ age~ 65+}{Population ~in~ the~ age~ group~ 0-14}~ \times~ 100
+\end{equation*}
+
+Year| Index of Aging
+---|---
+1985|60.97
+2015|102.90
+
+Thus, the proportion of economically inactive persons to number of young persons under the age of 14, i.e., the index of aging has increased hugely in France from 1985 to 2015.
+
+## Potential support ratio
+
+The potential support ratio (PSR) is the number of people aged 15–64 per one older person aged 65 or older. This ratio describes the burden placed on the working population (unemployment and children are not considered in this measure) by the non-working elderly population.
+
+\begin{equation*}
+Potential~ Support~ Ratio~ =~ \dfrac{number~ of~ people~ aged~ 0-14}{number~ of~ people~ aged~ 65+}
+\end{equation*}
+
+Year| Potential support ratio
+---|---
+1985|5.1
+2015|3.3
+
+Thus, the proportion of people aged 15-64 per one person of age 64 or higher has decreased in 2015 as compared to 1985.
+
+## Age-sex Pyramid
+
+A population pyramid, also called an "age-gender-pyramid" or "age-sex pyramid", is a graphical illustration that shows the distribution of various age groups in a population (typically that of a country or region of the world), which forms the shape of a pyramid when the population is growing. The age-sex pyramids of France in 1985 and 2015 are given below.
+
+![**1985**](1985_pyramid.png)
+
+
+![**2015**](2015_pyramid.png)
