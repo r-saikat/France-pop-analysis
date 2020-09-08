@@ -72,7 +72,7 @@ Thus, the proportion of economically inactive persons to number of young persons
 The potential support ratio (PSR) is the number of people aged 15–64 per one older person aged 65 or older. This ratio describes the burden placed on the working population (unemployment and children are not considered in this measure) by the non-working elderly population.
 
 \begin{equation*}
-Potential~ Support~ Ratio~ =~ \dfrac{number~ of~ people~ aged~ 0-14}{number~ of~ people~ aged~ 65+}
+Potential~ Support~ Ratio~ =~ \dfrac{Number~ of~ people~ aged~ 0-14}{Number~ of~ people~ aged~ 65+}
 \end{equation*}
 
 Year| Potential support ratio
@@ -84,9 +84,12 @@ Thus, the proportion of people aged 15-64 per one person of age 64 or higher has
 
 ## Age-sex Pyramid
 
-A population pyramid, also called an "age-gender-pyramid" or "age-sex pyramid", is a graphical illustration that shows the distribution of various age groups in a population (typically that of a country or region of the world), which forms the shape of a pyramid when the population is growing. The age-sex pyramids of France in 1985 and 2015 are given below.
-
-![**1985**](1985_pyramid.png)
+A population pyramid, also called an "age-gender-pyramid" or "age-sex pyramid", is a graphical illustration that shows the distribution of various age groups in a population (typically that of a country or region of the world), which forms the shape of a pyramid when the population is growing. The age-sex pyramids of France in 1985 (left) and 2015 (right) are given below.
 
 
-![**2015**](2015_pyramid.png)
+
+```{r, echo=FALSE,out.width="49%", out.height="100%",fig.cap="Age-sex Pyramid",fig.show='hold',fig.align='center'}
+knitr::include_graphics(c("1985_pyramid.png","2015_pyramid.png"))
+```
+
+It may be observed that there has been a change in the demography France. Proportion of middle-aged persons in the population has increased in 2015 as compared to 1985.

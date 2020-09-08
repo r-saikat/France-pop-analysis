@@ -14,7 +14,7 @@ f <- Females/(sum(Females)+sum(Females)) *100
 z <- data.frame(m,f,Age_groups)
 z
 #class(dat1985$Age_groups)
-pyramid(z,Llab="Males in %", Rlab="Females in %", Clab="Age groups")
+pyramid(z,Llab="Males in %", Rlab="Females in %", Clab="Age groups",main = 1985)
 
 
 
@@ -30,7 +30,7 @@ f1 <- dat2015$Female/(sum(dat2015$Female)+sum(dat2015$Female)) * 100
 z1 <- data.frame(m1,f1,Age_groups)
 z1
 
-pyramid(z1,Llab="Males in %", Rlab="Females in %", Clab="Age groups")
+pyramid(z1,Llab="Males in %", Rlab="Females in %", Clab="Age groups",main = "2015")
 
 
 dat1985
